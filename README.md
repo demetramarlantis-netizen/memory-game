@@ -11,3 +11,4 @@ Functions:
 
 
 How we will split our work: We will work togteher to figure out our plan for our code and process. To divide the work, we will split the code in half based on the diffucltuy of each part of our project. We live in the same house, so we will be able to communicate with each other very easily and stop in out of each other's room if we need any quick communcation. For more formal time together, we will plan, as necesscary, when we can meet to sit down and work togteher. 
+giygiyy
