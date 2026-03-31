@@ -1,4 +1,4 @@
-# bcog_200_project
+# memory-game
 
 Group; Ava Zumerchik (avazumerchik-design) and Demetra Marlantis (demetramarlantis- netizen)
 
