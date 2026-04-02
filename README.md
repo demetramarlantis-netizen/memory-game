@@ -1,8 +1,8 @@
 # memory-game
 
-Group; Ava Zumerchik (avazumerchik-design) and Demetra Marlantis (demetramarlantis- netizen)
+Group: Ava Zumerchik (avazumerchik-design) and Demetra Marlantis (demetramarlantis- netizen)
 
-Our plan for our final project is to create a memory game. There will be 10 squares, each a diffrent color that flash onto the screen for 1 second. Then, the screen will go blank. The same 10 squares will show up back on the screen, except one square will change its color. The user will have to select the corect square that changed color to receive a point. They want to get 5 rounds coreect in a row to win the game. If they select the wrong square, the game will tell them it is incorrect and will start thier score back to zero. Once the user "wins" the game, the screen will change to a fun winner graphic. 
+Our plan for our final project is to create a memory game. The user will enter their name, then there will be 10 squares shown. Each square shown is a different color that flashes onto the screen for 1 second. Then, the screen will go blank. The same 10 squares will show up back on the screen, except one square will change its color. The user will have to select the correct square that changed color to receive a point. They want to get 5 rounds correct in a row to win the game. If they select the wrong square, the game will tell them it is incorrect and show an image to represent it being wrong, and will start their score back to zero. Once the user "wins" the game, the screen will change to a fun winner graphic. 
 
 Functions: 
 1. show_colors() - display the 10 color squares on the screen for 1 second so the player can memorize them. After that 1 second, the screen clears.
