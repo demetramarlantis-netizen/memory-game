@@ -17,6 +17,24 @@ Project checkin #2:
 Introduction: 
 For our program, you will be playing a memory game. You will start by inputting your name so that the program knows who the player is. There will be 10 squares, each a different color, that will be arranged in two rows of 5 squares. You will be shown all 10 squares breifly, the screen will go blank, and then the colorded swaures will show back up, one of them with a different color than before. Your job is to select which square has changed color. If you guess correctly, you will get a point! If you guess incorrect, the program will tell you that you were incorrect and you will move on. To win the game, you need to get 5 points! 
 
+List of Functions & Methods:
+
+- get_player_name ()
+    - this has the user enter thier name at the start of the game, there is no parameter
+
+- show_colors(colors)
+    - this function will display the 10 colored squares for the one second 
+    - the parameter is a list of colors 
+
+- change_sqaure(colors) 
+    - Randomly selects one square at a time to change the color of before redisplaying the sqaures for the player 
+    - The parameter is the 10 original colors 
+    - This functon returns the updated colors and the index of the sqaure that changed
+
+- 
+
+
+
 Example use cases: 
 A user would use this program if they wanted to play a game for entertainment. They could also use this game as a way to challange their memory or to practice thier focus. 
 
