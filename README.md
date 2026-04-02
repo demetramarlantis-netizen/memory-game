@@ -1,8 +1,8 @@
 # memory-game
 
-Group: Ava Zumerchik (avazumerchik-design) and Demetra Marlantis (demetramarlantis- netizen)
+Group; Ava Zumerchik (avazumerchik-design) and Demetra Marlantis (demetramarlantis- netizen)
 
-Our plan for our final project is to create a memory game. The user will enter their name, then there will be 10 squares shown. Each square shown is a different color that flashes onto the screen for 1 second. Then, the screen will go blank. The same 10 squares will show up back on the screen, except one square will change its color. The user will have to select the correct square that changed color to receive a point. They want to get 5 rounds correct in a row to win the game. If they select the wrong square, the game will tell them it is incorrect and show an image to represent it being wrong, and will start their score back to zero. Once the user "wins" the game, the screen will change to a fun winner graphic. 
+Our plan for our final project is to create a memory game. There will be 10 squares, each a diffrent color that flash onto the screen for 1 second. Then, the screen will go blank. The same 10 squares will show up back on the screen, except one square will change its color. The user will have to select the corect square that changed color to receive a point. They want to get 5 rounds coreect in a row to win the game. If they select the wrong square, the game will tell them it is incorrect and will start thier score back to zero. Once the user "wins" the game, the screen will change to a fun winner graphic. 
 
 Functions: 
 1. show_colors() - display the 10 color squares on the screen for 1 second so the player can memorize them. After that 1 second, the screen clears.
@@ -11,3 +11,7 @@ Functions:
 
 
 How we will split our work: We will work togteher to figure out our plan for our code and process. To divide the work, we will split the code in half based on the diffucltuy of each part of our project. We live in the same house, so we will be able to communicate with each other very easily and stop in out of each other's room if we need any quick communcation. For more formal time together, we will plan, as necesscary, when we can meet to sit down and work togteher. 
+
+Project checkin #2: 
+For our program, you will be playing a memory game. You will start by inputting your name so that the program knows who the player is. There will be 10 squares, each a different color, that will be arranged in two rows of 5 squares. You will be shown all 10 squares breifly, the screen will go blank, and then the colorded swaures will show back up, one of them with a different color than before. Your job is to select which square has changed color. If you guess correctly, you will get a point! If you guess incorrect, the program will tell you that you were incorrect and you will move on. To win the game, you need to get 5 points! 
+
