@@ -26,8 +26,7 @@ DEMO TYPES:
 - There will be visual feedback displayed after each round. 
 - Winning the game by getting 5 points will trigger a final screen. 
 
-
-Testing: 
+TESTING: 
 You are able to run the tests using pytest in the root directoy as a module. 
 python -m pytest
 When the game runs, the player should answer correctly to earn points and stay in the game boundaies. Any  movemnet should update immediatley on the screen when selecting the sqaures. 
