@@ -7,15 +7,20 @@ def play_round():
     colors = generate_colors()
 
     print("Memorize these colors:")
-    print(colors)
+
+    for i, color in enumerate(colors):
+        print(f"{i}: {color}")
     time.sleep(2)
+
 
     print("\n" * 50)  # clears screen (simple way)
 
     new_colors, correct_index = change_one_color(colors)
 
     print("One color changed!")
-    print(new_colors)
+    
+    for i, color in enumerate(new_colors):
+        print(f"{i}: {color}")  
 
     guess = int(input("Enter the index (0-9) of the changed square: "))
 
@@ -35,8 +40,8 @@ def main():
         score += play_round()
         print(f"Score: {score}/5\n")
 
-    print("You win!")
+    print("Congratulations! You won the game!")
 
-if __name__ == "__main__" 
+if __name__ == "__main__":
     main()
     
