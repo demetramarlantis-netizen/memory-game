@@ -12,6 +12,11 @@ the screen will go blank, and then the colorded sqaures will show back up, one o
 Your job is to select which square has changed color. If you guess correctly, you will get a point! If you guess incorrect, 
 the program will tell you that you were incorrect and you will move on. To win the game, you need to get 5 points! Good Luck!
 
+SET UP INSTRUCTIONS: 
+Before you run the game, install pygame by using: pip install pygame
+
+
+
 DEMO TYPES:
 1. Standard demo 
 - The user inputs their name
