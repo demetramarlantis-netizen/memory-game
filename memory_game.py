@@ -170,17 +170,34 @@ def win_screen():
 
     screen.fill(WHITE)
 
-    win_text = font.render("You Won the Game!", True, (0, 150, 0))
+    win_text = font.render(
+        f"Congratulations {player_name}!", True, (0, 150, 0))
 
-    screen.blit(win_text, (320, 250))
+    screen.blit(win_text, (250, 220))
+
+    win_text2 = font.render(
+        "You Won the Game!", True, (0, 150, 0))
+
+    screen.blit(win_text2, (320, 280))
+
+    restart_text = font.render(
+        "Press ESC to Quit", True, BLACK)
+
+    screen.blit(restart_text, (340, 360))
 
     pygame.display.update()
 
-    time.sleep(3)
+    waiting = True
 
-    pygame.quit()
-    sys.exit()
-    
+    while waiting:
+
+        for event in pygame.event.get():
+
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+
+            check_escape(event)
 start_screen()
 
 while True:
