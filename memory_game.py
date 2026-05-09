@@ -20,9 +20,6 @@ BLACK = (0, 0, 0)
 score = 0
 player_name = input("Enter your name: ")
 
-
-boxes = []
-
 BOX_SIZE = 120
 MARGIN = 30
 
@@ -104,7 +101,7 @@ def show_message(text, color):
 
     pygame.display.update()
 
-    time.sleep(1)
+    pygame.time.delay(1000)
 
 def start_screen():
 
@@ -150,7 +147,17 @@ def play_round():
 
     draw_boxes(colors)
 
-    time.sleep(2)
+    pygame.time.delay(2000)
+
+    screen.fill(WHITE)
+
+    blank_text = font.render("Memorize...", True, BLACK)
+
+    screen.blit(blank_text, (420, 250))
+
+    pygame.display.update()
+
+    pygame.time.delay(1000)
 
     new_colors, correct_index = change_one_color(colors)
 
