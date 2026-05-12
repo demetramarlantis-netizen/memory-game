@@ -1,5 +1,6 @@
 import pygame
 import sys
+import random
 import time
 
 from game_logic import generate_colors, change_one_color
@@ -18,7 +19,7 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
 score = 0
-player_name = input("Enter your name: ")
+player_name = input("Please enter your name!: ")
 
 BOX_SIZE = 120
 MARGIN = 30
@@ -26,6 +27,11 @@ MARGIN = 30
 start_x = 110
 start_y = 150
 
+def check_escape(event):
+    if event.type == pygame.KEYDOWN:
+        if event.key == pygame.K_ESCAPE:
+            pygame.quit()
+            sys.exit()
 
 def create_boxes():
     rects = []
@@ -41,7 +47,6 @@ def create_boxes():
             rects.append(rect)
 
     return rects
-
 
 boxes = create_boxes()
 
