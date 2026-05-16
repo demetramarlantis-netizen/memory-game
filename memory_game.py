@@ -18,8 +18,43 @@ font = pygame.font.SysFont(None, 40)
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
+
+def name_input_screen():
+    name = ""
+    active = True
+
+    while active:
+        screen.fill(WHITE)
+
+        title = font.render("Enter Your Name:", True, BLACK)
+        screen.blit(title, (350, 200))
+
+        pygame.draw.rect(screen, BLACK, (300, 260, 400, 50), 2)
+
+        name_surface = font.render(name, True, BLACK)
+        screen.blit(name_surface, (310, 270))
+
+        pygame.display.update()
+
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_RETURN:
+                    if name.strip() != "":
+                        return name
+                elif event.key == pygame.K_BACKSPACE:
+                    name = name[:-1]
+                else:
+                    if len(name) < 15:
+                        name += event.unicode
+
+
+
 score = 0
-player_name = input("Please enter your name!: ")
+player_name = name_input_screen()
 
 BOX_SIZE = 120
 MARGIN = 30

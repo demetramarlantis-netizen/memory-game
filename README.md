@@ -19,6 +19,7 @@ the program will tell you that you were incorrect and you will move on. To win t
 
 SET UP INSTRUCTIONS: 
 Before you run the game, install pygame by using: pip install pygame
+python 
 
 
 
