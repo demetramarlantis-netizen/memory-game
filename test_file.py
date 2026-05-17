@@ -1,5 +1,6 @@
 # Test File:
-# To test the functionality of our program, the user should run the main Python scirpt. At the start of the game, the program should ask the user to enter thier name. Once the name has been entered and submitted, an directions screen will apear, explaining to the user how to play the game. There will be a start button that will begin the game. 
+# To test the functionality of our program, the user should run the main Python scirpt. At the start of the game, the program should ask the user to enter thier name.
+# Once the name has been entered and submitted, an directions screen will apear, explaining to the user how to play the game. There will be a start button that will begin the game. 
 #Once the user has pressed the start button, the game should begin. 
 #The screen should show 10 squares in teo rows of 5, each square with a diffrent color. The squares should remain visible for 1 second. 
 #After the first display disappears, the squares should reappear. Exactly one square should have changed color and the user should be able to click that one square. 
